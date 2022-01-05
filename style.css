@@ -117,3 +117,36 @@ ul {
 .colums p{
     color: tomato;
 }
+
+/* second part design is end here */
+
+
+/* favouurite apps part start here */
+
+.contianer-03{
+    width: 100%;
+    border: 2px solid black;
+    background-color: white;
+
+}
+.text_part{
+    text-align: center;
+
+}
+.flex-contianer{
+    border: 2px solid red;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.flex-items{
+    border: 2px solid yellow;
+    padding: 10px;
+    text-align: center;
+}
+.flex-items img{
+    width: 200px;
+    height: 180px;
+}
+
+/* favouurite apps part end here */
