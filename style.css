@@ -232,29 +232,29 @@ ul {
 
 .plans{
     width: 20%;
-    height: 400px;
+    height: 450px;
     text-align: center;
     margin: 0 10px;
     border-radius: 10px;
     box-shadow: 5px 5px 20px black;
+    background-color: rgba(208, 232, 240, 0.774);
+
 }
 .plans:hover{
     width: 21%;
-    height: 425px;
+    height: 475px;
     text-align: center;
     margin: 0 10px;
     box-shadow: 5px 5px 20px black;
     background-color: rgba(85, 105, 172, 0.596);
 }
-
+/* 
 .tilte{
     margin: 0;
     padding: 20px 0px;
     text-transform: capitalize;
-    background-color: rgb(201, 226, 235) ;
+    background-color: rgb(180, 224, 240) ;
     color: rgb(49, 73, 105);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 .tilte:hover{
     margin: 0;
@@ -262,27 +262,25 @@ ul {
     text-transform: capitalize;
     background-color: rgba(85, 105, 172, 0.596);
     color: rgb(35, 53, 77);
-    border-top-left-radius: none;
-    border-top-right-radius: none;
-}
+} */
 
 .monthDiscount{
     margin: 0;
 }
 .plans p{
     padding: 10px 40px;
+    text-align: justify;
 }
 .plansButton{
     background-color: rgb(211, 59, 110);
     border-radius: 10px;
     border: none;
-    padding: 10px 30px;
+    padding: 10px 40px;
 }
 
 .oneMonth , .monthDiscount{
     font-size: 1.5em;
     font-weight: bold;
-
 }
 /* plans design part end */
 
