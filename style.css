@@ -10,6 +10,7 @@ body{
     background-image: url(./image/BGI.jpg);
     background-repeat: no-repeat;
     background-size: 1559px 911px;
+    opacity : 0.8;
 
 }
 .navBarUPBGI_text{
@@ -17,6 +18,7 @@ body{
     color: tomato;
     font-size: 2em;
     padding-top: 120px;
+   
 }
 button{
     padding: 10px 30px;
@@ -33,7 +35,7 @@ button:hover{
     border:2px solid tomato;
 }
 
-.BGI{
+.BGI_text{
     color: aliceblue;
 }
 
@@ -67,6 +69,7 @@ ul {
     color: white;
 
   }
+  
   /* navbar design end */
 
 
@@ -88,8 +91,10 @@ ul {
     width: 260px;
     height: 5px;
     margin: auto;
+    margin-top: 15px;
     background-color: tomato;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
 .row{
    /* border: 2px solid blue; */
@@ -101,7 +106,7 @@ ul {
 .row img{
     width: 331px;
     height: 200px;
-    /* border: blueviolet solid 2px; */
+    border: blueviolet solid 2px;
     margin-left: 170px;
 }
 .colums{
@@ -112,7 +117,7 @@ ul {
     padding: 25px;
 }
 .colums h1{
-    color: blueviolet;
+    color:  rgb(49, 73, 105);;
 }
 .colums p{
     color: tomato;
@@ -126,24 +131,27 @@ ul {
 .contianer-03{
     width: 100%;
     border: 2px solid black;
-    background-color: white;
-
+    background: rgba(76, 175, 175, 0.3);
+    /* margin: 0; */
 }
 .text_part{
     text-align: center;
 
 }
 .flex-contianer{
-    border: 2px solid red;
     padding: 20px;
     display: flex;
     justify-content: space-around;
 }
 .flex-items{
-    border: 2px solid yellow;
-    padding: 10px;
     text-align: center;
+    box-shadow: 1px 5px 20px black;
 }
+.flex-items h3{
+    padding: 5px;
+    margin: 0;
+}
+
 .flex-items img{
     width: 200px;
     height: 180px;
@@ -153,39 +161,45 @@ ul {
 
 /* world wide design part start */
 .contianer-04{
-    border: 2px solid rgb(20, 117, 25);
     padding: 40px;
     display: flex;
     justify-content: center;
-    background-color: lightgray;
+    background: rgba(76, 175, 79, 0.199)
 }
 .image-04{
     width: 250px;
     height: 400px;
     border: 2px solid yellow;
-    background-color: red;
+}
+.image-04 img{
+    width: 250px;
+    height: 400px;
 }
 .text-right{
     text-align: right;
+}
+.text-04{
+    padding: 20px;
+    border: orange 2px solid;
 }
 
 /* world wide desgined part end */
 
 /* plans design part start */
 
-
 .contianer-05{
     width: 100%;
     height: 850px ;
     border: violet 2px solid;
-    background-color: lightblue;
+    background-color: rgba(208, 232, 240, 0.644);
     align-items: center;
 
 }
 .text-05{
     margin-top: 127px;
-margin-bottom: 62px;
+    margin-bottom: 62px;
     text-align: center;
+    color: rgb(79, 79, 100);
 }
 
 .plans_flex{
@@ -193,6 +207,7 @@ margin-bottom: 62px;
     height: auto;
     border: 2px solid rgb(20, 117, 25);
     padding: 40px 0px;
+
     display: flex;
     justify-content: center;
 }
@@ -200,15 +215,30 @@ margin-bottom: 62px;
     border: tan 2px solid;
     width: 20%;
     text-align: center;
-}
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px black;}
 .tilte{
     margin: 0;
     padding: 20px 0px;
     text-transform: capitalize;
     background-color: rgb(201, 226, 235) ;
+    color: rgb(49, 73, 105);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.monthDiscount{
+    margin: 0;
 }
 .plans p{
-    padding: 40px;
+    padding: 10px 40px;
+}
+.plansButton{
+    background-color: rgb(211, 59, 110);
+    border-radius: 10px;
+    border: none;
+    padding: 10px 30px;
 }
 
 /* plans design part end */
