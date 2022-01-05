@@ -36,4 +36,38 @@ button:hover{
 .BGI{
     color: aliceblue;
 }
-~
+
+/* navbar design start */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: yellow;
+    text-align: center;
+    padding: 25px 30px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  li a:hover {
+    background-color: tomato;
+    color: white;
+
+  }
+  /* navbar design end */
+
+  
+  /* navBar Down part design start */
+
+
